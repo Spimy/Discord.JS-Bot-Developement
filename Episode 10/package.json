@@ -1,0 +1,18 @@
+{
+  "name": "tutorialbot",
+  "version": "1.0.0",
+  "description": "A Tutorial Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "synopNode",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.0.2",
+    "snekfetch": "^4.0.4",
+    "ytdl-core": "^0.25.2"
+  }
+}
