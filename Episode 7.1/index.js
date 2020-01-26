@@ -51,7 +51,7 @@ bot.on("message", async message => {
   // return message.channel.send(`**${user_tag}** is currently afk. Reason: ${key.reason}`);
   // return message.reply(`you have been removed from the afk list!`).then(msg => msg.delete(5000));
 
-  if (message.content.includes(message.mentions.users.first())) {
+  if (message.content.includes(message.mentions.members.first())) {
     let mentioned = bot.afk.get(message.mentions.users.first().id);
     if (mentioned) message.channel.send(`**${mentioned.usertag}** is currently afk. Reason: ${mentioned.reason}`);
   }
